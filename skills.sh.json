@@ -1,0 +1,10 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "groupings": [
+    {
+      "title": "Thinking modes",
+      "description": "Conversational modes for guided reasoning and two-sided analysis.",
+      "skills": ["rubber-duck", "good-bad-cop"]
+    }
+  ]
+}
