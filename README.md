@@ -20,26 +20,23 @@ skeptical Bad Cop who pressure-tests assumptions and risks.
 List the skills available from a published repository:
 
 ```sh
-npx skills add <github-owner>/SkillsForFrills --list
+npx skills add rgilsimoes/SkillsForFrills --list
 ```
 
 Install both skills for Codex:
 
 ```sh
-npx skills add <github-owner>/SkillsForFrills --agent codex
+npx skills add rgilsimoes/SkillsForFrills --agent codex
 ```
 
 Install one skill globally:
 
 ```sh
-npx skills add <github-owner>/SkillsForFrills \
+npx skills add rgilsimoes/SkillsForFrills \
   --skill rubber-duck \
   --agent codex \
   --global
 ```
-
-Replace `<github-owner>` with the GitHub account or organization that publishes
-this repository.
 
 ## Test locally
 
